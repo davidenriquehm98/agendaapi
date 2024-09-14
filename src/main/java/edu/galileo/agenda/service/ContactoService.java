@@ -12,7 +12,6 @@ import org.springframework.stereotype.Service;
 public class ContactoService {
     @Autowired
     private ContactoRepository contactoRepository;
-
     public Contacto add(Contacto contacto) {
         return this.contactoRepository.save(contacto);
     }

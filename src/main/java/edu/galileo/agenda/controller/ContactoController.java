@@ -3,8 +3,6 @@ package edu.galileo.agenda.controller;
 
 import edu.galileo.agenda.model.Contacto;
 import edu.galileo.agenda.service.ContactoService;
-
-import java.io.Console;
 import java.util.List;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
